@@ -32,8 +32,8 @@ func (list *SingleLL) AppendNode(data interface{}) {
 
 func (list *SingleLL) Reverse() {
 	curr := list.head
-	var prev *ListNode = nil
-	var next *ListNode = nil
+	var prev *ListNode
+	var next *ListNode
 	for curr != nil {
 		next = curr.Next
 		curr.Next = prev
