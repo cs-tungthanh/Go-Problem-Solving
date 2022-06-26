@@ -1,4 +1,4 @@
-package stack
+package list
 
 type ListNode struct {
 	Data int
